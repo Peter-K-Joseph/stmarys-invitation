@@ -19,7 +19,7 @@ export const TEXT = {
     detailsTitle: 'എപ്പോൾ, എവിടെ',
     pill: '146-ാമത് വാർഷികം',
     kicker: 'ഹൃദയപൂർവ്വം ക്ഷണിക്കുന്നു',
-    schoolSub: 'യു.പി സ്കൂൾ · തേവര',
+    schoolSub: 'യു.പി. സ്കൂൾ · തേവര',
     navInvite: 'ക്ഷണം',
     navDate: 'തീയതി',
     navVenue: 'വേദി',
@@ -31,9 +31,9 @@ export const TEXT = {
     timeShort: 'രാവിലെ 10:00 മണി',
     venueTitle: 'വേദി',
     dateTitle: 'തീയതി',
-    docTitle: 'ക്ഷണം · സെന്റ് മേരീസ് യു.പി സ്കൂൾ, തേവര',
+    docTitle: 'ക്ഷണം · സെന്റ് മേരീസ് യു.പി. സ്കൂൾ, തേവര',
     eyebrow: 'നിങ്ങൾക്കൊരു ക്ഷണം',
-    school: 'സെന്റ് മേരീസ് യു.പി സ്കൂൾ',
+    school: 'സെന്റ് മേരീസ് യു.പി. സ്കൂൾ',
     place: 'തേവര',
     open: 'ക്ഷണം തുറക്കുക',
     sound: 'ശബ്ദം',
@@ -45,7 +45,7 @@ export const TEXT = {
     scrollHint: 'താഴേക്ക് സ്ക്രോൾ ചെയ്യുക',
     dear: 'പ്രിയരേ,',
     letter1:
-      'സെന്റ് മേരീസ് യു.പി സ്കൂളിന്റെ <span class="nb"><b>146</b>-ാമത്</span> വാർഷികാഘോഷവും, സ്തുത്യർഹമായ സേവനം അനുഷ്ഠിച്ച <em>ശ്രീമതി ഷാന്റിമോൾ കെ.എ.</em>, <em>ശ്രീമതി ജിൻസി ആന്റണി</em> എന്നീ അധ്യാപകരുടെ യാത്രയയപ്പ് സമ്മേളനവും',
+      'സെന്റ് മേരീസ് യു.പി. സ്കൂളിന്റെ <span class="nb"><b>146</b>-ാമത്</span> വാർഷികാഘോഷവും, സ്തുത്യർഹമായ സേവനം അനുഷ്ഠിച്ച <em>ശ്രീമതി ഷാന്റിമോൾ കെ.എ.</em>, <em>ശ്രീമതി ജിൻസി ആന്റണി</em> എന്നീ അധ്യാപകരുടെ യാത്രയയപ്പ് സമ്മേളനവും',
     ribbon: '<b>2027</b> ജനുവരി <b>16</b> ശനിയാഴ്ച രാവിലെ <b>10</b> മണിക്ക്',
     letter2:
       '<strong>സേക്രഡ് ഹാർട്ട് ഹയർ സെക്കന്ററി ഓഡിറ്റോറിയത്തിൽ</strong> വച്ച് നടത്തുവാൻ തീരുമാനിച്ചിരിക്കുന്നു. ഈ ധന്യമുഹൂർത്തത്തിലേക്ക് നിങ്ങളേവരെയും ഹൃദയപൂർവ്വം ക്ഷണിക്കുന്നു.',
@@ -81,15 +81,15 @@ export const TEXT = {
     programmePdf: 'കാര്യപരിപാടി (PDF)',
     replay: 'വീണ്ടും തുറക്കുക',
     shareText:
-      'സെന്റ് മേരീസ് യു.പി സ്കൂൾ, തേവര — 146-ാമത് വാർഷികാഘോഷവും യാത്രയയപ്പ് സമ്മേളനവും. 2027 ജനുവരി 16, ശനി, രാവിലെ 10 മണി. ക്ഷണം തുറക്കൂ:',
-    calTitle: 'സെന്റ് മേരീസ് യു.പി സ്കൂൾ 146-ാമത് വാർഷികാഘോഷം & യാത്രയയപ്പ്',
+      'സെന്റ് മേരീസ് യു.പി. സ്കൂൾ, തേവര — 146-ാമത് വാർഷികാഘോഷവും യാത്രയയപ്പ് സമ്മേളനവും. 2027 ജനുവരി 16, ശനി, രാവിലെ 10 മണി. ക്ഷണം തുറക്കൂ:',
+    calTitle: 'സെന്റ് മേരീസ് യു.പി. സ്കൂൾ 146-ാമത് വാർഷികാഘോഷം & യാത്രയയപ്പ്',
     calDetails:
-      'സെന്റ് മേരീസ് യു.പി സ്കൂൾ, തേവരയുടെ 146-ാമത് വാർഷികാഘോഷവും ശ്രീമതി ഷാന്റിമോൾ കെ.എ., ശ്രീമതി ജിൻസി ആന്റണി എന്നിവരുടെ യാത്രയയപ്പ് സമ്മേളനവും.',
+      'സെന്റ് മേരീസ് യു.പി. സ്കൂൾ, തേവരയുടെ 146-ാമത് വാർഷികാഘോഷവും ശ്രീമതി ഷാന്റിമോൾ കെ.എ., ശ്രീമതി ജിൻസി ആന്റണി എന്നിവരുടെ യാത്രയയപ്പ് സമ്മേളനവും.',
   },
   en: {
     inviteTitle: "You're Invited",
     dateShort: '16 Jan 2027',
-    timeOnly: '10:00 AM',
+    timeOnly: '10:00 AM',
     monthYear: 'January 2027',
     weekdayName: 'Saturday',
     detailsTitle: 'When & where',
@@ -104,7 +104,7 @@ export const TEXT = {
     navShare: 'Share',
     gratitude: 'Farewell',
     weekday: 'Saturday,',
-    timeShort: 'Morning · 10:00 AM',
+    timeShort: 'Morning · 10:00 AM',
     venueTitle: 'The Location',
     dateTitle: 'Save the Date',
     docTitle: "Invitation · St. Mary's U P School, Thevara",
@@ -122,12 +122,12 @@ export const TEXT = {
     dear: 'Dear all,',
     letter1:
       "St. Mary's U.P. School's <b>146th</b> Annual Day celebration, together with the farewell meeting for <em>Smt. Shantimol K.A.</em> and <em>Smt. Jincy Antony</em>, teachers who have rendered praiseworthy service,",
-    ribbon: 'Saturday, <b>16</b> January <b>2027</b> · <b>10</b> AM',
+    ribbon: 'Saturday, <b>16</b> January <b>2027</b> · <b>10</b> AM',
     letter2:
       'will be held at the <strong>Sacred Heart Higher Secondary Auditorium</strong>. We warmly invite each one of you to be with us on this blessed occasion.',
     whenTitle: 'When & where',
     dateLong: 'Saturday, 16 January 2027',
-    timeLong: '10:00 AM',
+    timeLong: '10:00 AM',
     venue: 'Sacred Heart Higher Secondary Auditorium',
     venueSub: 'Thevara, Kochi',
     countdownTitle: 'Counting down',
@@ -157,7 +157,7 @@ export const TEXT = {
     programmePdf: 'Programme (PDF)',
     replay: 'Replay opening',
     shareText:
-      "St. Mary's U P School, Thevara: 146th Annual Day & Farewell Meeting. Saturday, 16 January 2027, 10 AM. Open your invitation:",
+      "St. Mary's U P School, Thevara: 146th Annual Day & Farewell Meeting. Saturday, 16 January 2027, 10 AM. Open your invitation:",
     calTitle: "St. Mary's U P School 146th Annual Day & Farewell",
     calDetails:
       "146th Annual Day of St. Mary's U P School, Thevara, and the farewell meeting for Smt. Shantimol K.A. and Smt. Jincy Antony.",

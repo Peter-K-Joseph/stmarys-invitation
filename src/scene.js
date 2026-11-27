@@ -166,10 +166,10 @@ function cardTexture(renderer, logoImg, lang) {
   ctx.fillRect(W / 2 - 70, 362, 140, 6);
   ctx.fillStyle = '#0b1a4a';
   ctx.font = lang === 'ml' ? '700 40px "Invite Malayalam", sans-serif' : '700 40px "Plus Jakarta Sans", sans-serif';
-  ctx.fillText(lang === 'ml' ? 'സെന്റ് മേരീസ് യു.പി സ്കൂൾ, തേവര' : "St. Mary's U P School, Thevara", W / 2, 440);
+  ctx.fillText(lang === 'ml' ? 'സെന്റ് മേരീസ് യു.പി. സ്കൂൾ, തേവര' : "St. Mary's U P School, Thevara", W / 2, 440);
   ctx.fillStyle = '#6b5420';
   ctx.font = lang === 'ml' ? '500 30px "Invite Malayalam", sans-serif' : '500 30px "Plus Jakarta Sans", sans-serif';
-  ctx.fillText(lang === 'ml' ? '2027 ജനുവരി 16 · രാവിലെ 10 മണി' : '16 January 2027 · 10 AM', W / 2, 510);
+  ctx.fillText(lang === 'ml' ? '2027 ജനുവരി 16 · രാവിലെ 10 മണി' : '16 January 2027 · 10 AM', W / 2, 510);
   return toTexture(c, renderer);
 }
 
