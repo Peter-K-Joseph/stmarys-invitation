@@ -191,7 +191,7 @@ export const PROGRAMME = [
   },
   {
     ml: ['ആശംസ', 'ശ്രീമതി ജിനി ജോർജ് പി.', 'പ്രധാനാധ്യാപിക'],
-    en: ['Felicitation', 'Smt. Jini George P.', 'Headmistress'],
+    en: ['Felicitation', 'Smt. Jiny George P.', 'Headmistress'],
   },
   {
     ml: ['ആശംസ', 'ശ്രീ അജിത് കെ.വി.', 'പി.ടി.എ. പ്രസിഡന്റ്'],
@@ -223,7 +223,7 @@ export const PROGRAMME = [
 ];
 
 export const REGARDS = [
-  { ml: ['ശ്രീമതി ജിനി ജോർജ് പി.', 'പ്രധാനാധ്യാപിക'], en: ['Smt. Jini George P.', 'Headmistress'] },
+  { ml: ['ശ്രീമതി ജിനി ജോർജ് പി.', 'പ്രധാനാധ്യാപിക'], en: ['Smt. Jiny George P.', 'Headmistress'] },
   {
     ml: ['റവ. ഫാ. പ്രവീൺ ഓടനാട്ട് CMI', 'മാനേജർ ഇൻ-ചാർജ്'],
     en: ['Rev. Fr. Praveen Odanattu CMI', 'Manager in-Charge'],
