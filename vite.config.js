@@ -2,7 +2,8 @@ import { defineConfig } from 'vite';
 
 // SITE_URL (e.g. https://user.github.io/stmarys-invitation/) is injected by the
 // GitHub Pages workflow so link previews (WhatsApp, Facebook) get absolute URLs.
-const site = (process.env.SITE_URL || '').replace(/\/?$/, '/');
+// Always link previews over https (Pages may report the custom domain as http://)
+const site = (process.env.SITE_URL || '').replace(/^http:\/\//, 'https://').replace(/\/?$/, '/');
 
 export default defineConfig({
   base: './',
