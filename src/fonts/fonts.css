@@ -1,0 +1,7 @@
+/* Noto Sans Malayalam (SIL OFL 1.1, see OFL-LICENSE.txt), renamed "Invite Malayalam".
+   The only change: the dotted-circle glyph (U+25CC) is blank and zero-width, so text
+   like "146-ാമത്" shows the vowel sign straight after the hyphen, as on the printed card. */
+@font-face { font-family: 'Invite Malayalam'; font-style: normal; font-weight: 400; font-display: swap; src: url(./invite-malayalam-400.woff2) format('woff2'); }
+@font-face { font-family: 'Invite Malayalam'; font-style: normal; font-weight: 500; font-display: swap; src: url(./invite-malayalam-500.woff2) format('woff2'); }
+@font-face { font-family: 'Invite Malayalam'; font-style: normal; font-weight: 600; font-display: swap; src: url(./invite-malayalam-600.woff2) format('woff2'); }
+@font-face { font-family: 'Invite Malayalam'; font-style: normal; font-weight: 700; font-display: swap; src: url(./invite-malayalam-700.woff2) format('woff2'); }

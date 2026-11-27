@@ -160,15 +160,15 @@ function cardTexture(renderer, logoImg, lang) {
   ctx.textAlign = 'center';
   ctx.fillStyle = goldGradient(ctx, W * 0.25, 0, W * 0.75, 0);
   ctx.fillStyle = '#0b1a4a';
-  ctx.font = lang === 'ml' ? '700 96px "Noto Sans Malayalam", sans-serif' : '800 104px "Plus Jakarta Sans", sans-serif';
+  ctx.font = lang === 'ml' ? '700 96px "Invite Malayalam", sans-serif' : '800 104px "Plus Jakarta Sans", sans-serif';
   ctx.fillText(lang === 'ml' ? 'ക്ഷണം' : 'Invitation', W / 2, 330);
   ctx.fillStyle = goldGradient(ctx, W * 0.4, 0, W * 0.6, 0);
   ctx.fillRect(W / 2 - 70, 362, 140, 6);
   ctx.fillStyle = '#0b1a4a';
-  ctx.font = lang === 'ml' ? '700 40px "Noto Sans Malayalam", sans-serif' : '700 40px "Plus Jakarta Sans", sans-serif';
+  ctx.font = lang === 'ml' ? '700 40px "Invite Malayalam", sans-serif' : '700 40px "Plus Jakarta Sans", sans-serif';
   ctx.fillText(lang === 'ml' ? 'സെന്റ് മേരീസ് യു.പി സ്കൂൾ, തേവര' : "St. Mary's U P School, Thevara", W / 2, 440);
   ctx.fillStyle = '#6b5420';
-  ctx.font = lang === 'ml' ? '500 30px "Noto Sans Malayalam", sans-serif' : '500 30px "Plus Jakarta Sans", sans-serif';
+  ctx.font = lang === 'ml' ? '500 30px "Invite Malayalam", sans-serif' : '500 30px "Plus Jakarta Sans", sans-serif';
   ctx.fillText(lang === 'ml' ? '2027 ജനുവരി 16 · രാവിലെ 10 മണി' : '16 January 2027 · 10 AM', W / 2, 510);
   return toTexture(c, renderer);
 }

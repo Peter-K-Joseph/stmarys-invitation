@@ -3,10 +3,7 @@ import '@fontsource/plus-jakarta-sans/latin-500.css';
 import '@fontsource/plus-jakarta-sans/latin-600.css';
 import '@fontsource/plus-jakarta-sans/latin-700.css';
 import '@fontsource/plus-jakarta-sans/latin-800.css';
-import '@fontsource/noto-sans-malayalam/malayalam-400.css';
-import '@fontsource/noto-sans-malayalam/malayalam-500.css';
-import '@fontsource/noto-sans-malayalam/malayalam-600.css';
-import '@fontsource/noto-sans-malayalam/malayalam-700.css';
+import './fonts/fonts.css';
 import './styles.css';
 
 import { gsap } from 'gsap';
@@ -72,8 +69,8 @@ async function boot() {
           document.fonts.load('800 40px "Plus Jakarta Sans"'),
           document.fonts.load('600 20px "Plus Jakarta Sans"'),
           document.fonts.load('400 20px "Plus Jakarta Sans"'),
-          document.fonts.load('400 20px "Noto Sans Malayalam"', 'സെന്റ്'),
-          document.fonts.load('700 20px "Noto Sans Malayalam"', 'സെന്റ്'),
+          document.fonts.load('400 20px "Invite Malayalam"', 'സെന്റ്'),
+          document.fonts.load('700 20px "Invite Malayalam"', 'സെന്റ്'),
         ]).catch(() => {})
       : Promise.resolve(),
     new Promise((r) => setTimeout(r, 900)),

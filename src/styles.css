@@ -22,7 +22,7 @@
   --r-sm: 10px;
 
   --f: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --f-ml: 'Noto Sans Malayalam', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --f-ml: 'Invite Malayalam', 'Plus Jakarta Sans', system-ui, sans-serif;
 
   --safe-t: env(safe-area-inset-top, 0px);
   --safe-b: env(safe-area-inset-bottom, 0px);
@@ -270,7 +270,7 @@ body.revealed #intro { pointer-events: none; }
 .step .node { position: relative; z-index: 1; width: 16px; height: 16px; margin-top: 8px; border-radius: 5px; background: #111c48; border: 1px solid rgba(255, 255, 255, 0.22); transition: all 0.4s var(--ease); }
 .step .card { padding: 2px 0 0; opacity: 0.55; transition: opacity 0.4s var(--ease); }
 .step .item { display: block; font-weight: 600; font-size: 0.82rem; color: var(--gold-soft); line-height: 1.4; }
-.step .who { display: block; font-weight: 600; font-size: 0.98rem; line-height: 1.45; }
+.step .who { display: block; white-space: pre-line; font-weight: 600; font-size: 0.98rem; line-height: 1.45; }
 .step .role { display: block; font-size: 0.85rem; color: var(--text-3); }
 .step.lit .node { background: var(--gold); border-color: var(--gold); box-shadow: 0 0 0 4px rgba(232, 185, 73, 0.15); }
 .step.lit .card { opacity: 1; }
