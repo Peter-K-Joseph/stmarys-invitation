@@ -214,7 +214,7 @@ export const PROGRAMME = [
   },
   {
     ml: ['നന്ദി', 'റവ. ഫാ. ജോബി വിതയത്തിൽ CMI', 'പ്രോഗ്രാം കൺവീനർ'],
-    en: ['Vote of Thanks', 'Rev. Fr. Joby Vithayathil CMI', 'Programme Convener'],
+    en: ['Vote of Thanks', 'Rev. Fr. Joby Vithayathil CMI', 'Programme Convenor'],
   },
 ];
 
