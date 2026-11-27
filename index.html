@@ -61,10 +61,8 @@
       <ul class="nav-menu glass" id="navMenu" hidden>
         <li><a href="#s-invite" data-t="navInvite"></a></li>
         <li><a href="#s-date" data-t="navDate"></a></li>
-        <li><a href="#s-venue" data-t="navVenue"></a></li>
         <li><a href="#s-video" data-t="navVideo"></a></li>
         <li><a href="#s-programme" data-t="navProgramme"></a></li>
-        <li><a href="#s-share" data-t="navShare"></a></li>
       </ul>
     </nav>
 
@@ -109,7 +107,6 @@
     <main id="invite" aria-hidden="true">
       <section id="s-invite" class="sec hero">
         <p class="kicker" data-reveal data-t="heroEyebrow"></p>
-        <h2 class="hero-title" data-reveal data-t="inviteTitle"></h2>
 
         <figure class="arch-photo" data-reveal>
           <picture>
@@ -155,7 +152,6 @@
       </section>
 
       <section id="s-date" class="sec details">
-        <h3 class="title" data-reveal data-t="detailsTitle"></h3>
         <div class="details-grid">
           <div class="tile glass date-tile" data-reveal>
             <div class="dt-day" aria-hidden="true"><span>16</span></div>
@@ -165,34 +161,11 @@
               <span class="dt-time"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg><span data-t="timeOnly"></span></span>
             </div>
           </div>
-          <div class="tile glass venue-tile" id="s-venue" data-reveal>
-            <span class="icon-box"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.8A7 7 0 0 0 5 9.2C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.4" r="2.5"/></svg></span>
-            <div class="vt-meta">
-              <strong data-t="venue"></strong>
-              <span data-t="venueSub"></span>
-            </div>
-          </div>
-        </div>
-        <div class="tile glass countdown" data-reveal>
-          <p class="cd-title" data-t="countdownTitle"></p>
-          <div class="cd-grid" id="countdown">
-            <div class="cd-cell"><div class="cd-num" data-unit="d">00</div><span data-t="days"></span></div>
-            <div class="cd-cell"><div class="cd-num" data-unit="h">00</div><span data-t="hours"></span></div>
-            <div class="cd-cell"><div class="cd-num" data-unit="m">00</div><span data-t="minutes"></span></div>
-            <div class="cd-cell"><div class="cd-num" data-unit="s">00</div><span data-t="seconds"></span></div>
-          </div>
-          <p class="cd-done" id="cdDone" hidden></p>
-        </div>
-        <div class="actions" data-reveal>
-          <button class="btn gold" id="icsBtn" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="3"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><span data-t="addCalendar"></span></button>
-          <a class="btn glass-btn" id="mapBtn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6.2 7-11.8A7 7 0 0 0 5 9.2C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.4" r="2.5"/></svg><span data-t="directions"></span></a>
-          <a class="btn glass-btn" id="gcalBtn" target="_blank" rel="noopener"><span data-t="googleCalendar"></span></a>
         </div>
       </section>
 
       <section id="s-video" class="sec teaser">
         <h3 class="title" data-reveal>Odyssey 2027</h3>
-        <p class="sub" data-reveal data-t="teaserSub"></p>
         <div class="phone glass" data-reveal>
           <video id="teaser" playsinline preload="none" aria-label="Odyssey 2027 teaser video"></video>
           <button class="play glass" id="playBtn" type="button" aria-label="Play video">
@@ -203,7 +176,6 @@
 
       <section id="s-programme" class="sec programme">
         <h3 class="title" data-reveal data-t="programmeTitle"></h3>
-        <p class="sub" data-reveal data-t="programmeSub"></p>
         <div class="card glass quest">
           <div class="quest-line" aria-hidden="true"><div class="quest-fill"></div></div>
           <ol id="programmeList"></ol>
@@ -222,26 +194,6 @@
         <ul class="regards-grid" id="regardsList"></ul>
       </section>
 
-      <footer id="s-share" class="sec share-sec">
-        <div class="card glass share" data-reveal>
-          <h3 class="title" data-t="shareTitle"></h3>
-          <div class="actions">
-            <button class="btn gold" id="shareBtn" type="button"><span data-t="share"></span></button>
-            <a class="btn glass-btn" id="waBtn" target="_blank" rel="noopener"><span data-t="whatsapp"></span></a>
-            <button class="btn glass-btn" id="copyBtn" type="button"><span data-t="copyLink"></span></button>
-          </div>
-          <p class="dl-title" data-t="downloads"></p>
-          <div class="links">
-            <a href="./assets/Invitation.pdf" download><span data-t="invitationPdf"></span></a>
-            <a href="./assets/Programme.pdf" download><span data-t="programmePdf"></span></a>
-          </div>
-          <button class="btn glass-btn replay" id="replayBtn" type="button"><span data-t="replay"></span></button>
-        </div>
-        <div class="foot-brand">
-          <img src="./assets/logo.webp" alt="" width="54" height="54" loading="lazy" />
-          <p class="foot-name"><span data-t="school"></span>, <span data-t="place"></span></p>
-        </div>
-      </footer>
     </main>
 
     <div id="toast" class="glass" role="status" aria-live="polite"></div>

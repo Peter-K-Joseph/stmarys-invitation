@@ -266,7 +266,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 /* Replay */
-$('#replayBtn').addEventListener('click', () => {
+$('#replayBtn')?.addEventListener('click', () => {
   if (phase !== 'revealed') return;
   window.scrollTo({ top: 0, behavior: 'instant' });
   ScrollTrigger.getAll().forEach((t) => t.disable(false));
@@ -327,9 +327,9 @@ document.addEventListener('click', (e) => {
   if (b && b.id !== 'soundBtn') sound.click();
 });
 
-$('#icsBtn').addEventListener('click', () => downloadIcs(lang));
-$('#shareBtn').addEventListener('click', () => share(lang));
-$('#copyBtn').addEventListener('click', () => copyLink(lang));
+$('#icsBtn')?.addEventListener('click', () => downloadIcs(lang));
+$('#shareBtn')?.addEventListener('click', () => share(lang));
+$('#copyBtn')?.addEventListener('click', () => copyLink(lang));
 
 window.addEventListener(
   'scroll',
@@ -348,7 +348,6 @@ const NAV = [
   ['#s-date', 'navDate'],
   ['#s-video', 'navVideo'],
   ['#s-programme', 'navProgramme'],
-  ['#s-share', 'navShare'],
 ];
 let navReady = false;
 function setNavLabel(key) {

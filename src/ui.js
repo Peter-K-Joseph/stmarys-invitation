@@ -33,7 +33,7 @@ export function applyText(lang) {
   $('#programmeList').innerHTML = PROGRAMME.map((p, i) => {
     const [item, who, role] = p[lang];
     return `<li class="step">
-      <div class="node">${i + 1}</div>
+      <div class="node" aria-hidden="true"></div>
       <div class="card">
         <span class="item">${esc(item)}</span>
         ${who ? `<span class="who">${esc(who)}</span>` : ''}
@@ -53,9 +53,11 @@ export function applyText(lang) {
   gcal.searchParams.set('dates', `${icsDate(EVENT.start)}/${icsDate(EVENT.end)}`);
   gcal.searchParams.set('details', `${T.calDetails}\n${shareUrl()}`);
   gcal.searchParams.set('location', T.venue + ', ' + T.venueSub);
-  $('#gcalBtn').href = gcal.toString();
-  $('#mapBtn').href = 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(EVENT.mapsQuery);
-  $('#waBtn').href = 'https://wa.me/?text=' + encodeURIComponent(`${T.shareText} ${shareUrl()}`);
+  // these buttons are optional (removed from the current layout)
+  const set = (sel, href) => { const el = $(sel); if (el) el.href = href; };
+  set('#gcalBtn', gcal.toString());
+  set('#mapBtn', 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(EVENT.mapsQuery));
+  set('#waBtn', 'https://wa.me/?text=' + encodeURIComponent(`${T.shareText} ${shareUrl()}`));
 }
 
 // Wrap every word in a span (keeping inline tags) so it can be animated.
@@ -178,6 +180,7 @@ function tick(i) {
 /* ------------------------------------------------------------------ */
 
 export function startCountdown(getLang) {
+  if (!$('#countdown')) return;
   const target = new Date(EVENT.start).getTime();
   const cells = Object.fromEntries($$('#countdown .cd-num').map((el) => [el.dataset.unit, el]));
   const prev = {};
