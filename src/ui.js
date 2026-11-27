@@ -11,6 +11,12 @@ const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
+// On screen only: a vowel sign straight after a hyphen ("146-ാമത്") is drawn with a
+// standalone copy of the glyph (U+E0AA in the bundled Invite Malayalam font), because
+// some text engines (Safari / iOS) show a box for a vowel sign with no letter before it.
+// Shared, calendar and title text keep the real characters.
+const screenMl = (html) => html.replace(/-ാ/g, '-');
+
 // Shared links carry ?lang=ml when the invitation is being viewed in Malayalam
 export const shareUrl = () => location.origin + location.pathname + (document.documentElement.lang === 'ml' ? '?lang=ml' : '');
 
@@ -26,7 +32,7 @@ export function applyText(lang) {
   document.title = T.docTitle;
   $$('[data-t]').forEach((el) => {
     const v = T[el.dataset.t];
-    if (v != null) el.innerHTML = v;
+    if (v != null) el.innerHTML = lang === 'ml' ? screenMl(v) : v;
   });
   $$('[data-words]').forEach(splitWords);
 
